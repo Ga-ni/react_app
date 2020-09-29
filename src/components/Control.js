@@ -24,9 +24,9 @@ class Control extends Component {
                     <input  
                         onClick={function(e){
                             e.preventDefault();
-                            this.props.onChangeMode('delte');
+                            this.props.onChangeMode('delete');
                         }.bind(this)} type="button" value="delete"
-                    />delete
+                    />
                 </li>
             </ul>
         );
